@@ -3,7 +3,9 @@ layout: default
 ---
 
 <section class="home">
-{{ page.images }}
+  {% for images in page.images %}
+    <img src="{{ images }}" alt="">
+  {% endfor %}
   <div class="post-content">
     {{ content }}
   </div>
