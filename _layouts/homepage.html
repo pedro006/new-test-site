@@ -3,11 +3,29 @@ layout: default
 ---
 
 <section class="home">
-  {% for images in page.images %}
-    <img src="{{ images }}" alt="">
-  {% endfor %}
   <div class="post-content">
     {{ content }}
   </div>
+
+
+  <!-- Slider main container -->
+<div class="swiper-container" style="width:600px;height:300px">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        {% for images in page.images %}
+        <div class="swiper-slide"><img src="{{ images }}" alt=""></div>
+        {% endfor %}
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
 
 </section>
