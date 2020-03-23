@@ -1,7 +1,7 @@
 .swiper-container {
   width: 500px;
   height: 300px;
-  position: fixed;
+  position: fixed !important;
   top: 30px;
   right: 30px;
 }
