@@ -5,3 +5,10 @@
   top: 30px;
   right: 30px;
 }
+
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination,
+.swiper-scrollbar {
+  display: none !important;
+}

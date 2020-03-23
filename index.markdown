@@ -11,3 +11,9 @@ images:
 layout: homepage
 ---
 
+Pierre-Marie Fort
+
+Born in Paris, FR
+Based in Brooklyn, NY USA
+Currently @ ETC
+SVA 2019 - BFA Design
