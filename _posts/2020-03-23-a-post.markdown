@@ -1,0 +1,6 @@
+---
+title: A post
+date: 2020-03-23 01:20:00 Z
+---
+
+a post
