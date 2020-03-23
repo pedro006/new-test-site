@@ -9,7 +9,11 @@
   <script>
   var mySwiper = new Swiper ('.swiper-container', {
     // Optional parameters
-    direction: 'vertical',
+    autoplay: {
+      delay: 750,
+    },
+    effect: 'fade',
+    speed: 0,
     loop: true,
 
     // If we need pagination
